@@ -5,7 +5,8 @@ Este projeto contém uma série de Testes Automatizados desenvolvidos para valid
 ## Funcionalidades Testadas
 
 - **Criação de Conta:** Realização do processo para se criar uma conta de um novo usuário.
-- **Login:** Validações do login com credenciais válidas e inválidas.
+- **Login válido:** Validações do login com credenciais válidas.
+- **Login inválido:** Validações do login com credenciais inválidas.
 - **Logout:** Validamos se o usuário consegue se desconectar corretamente da aplicação.
 - **Busca de Pacotes existentes:** Velidamos a busca por pacotes de viagem existentes.
 - **Busca de Pacotes inexistentes ou indisponíveis:** Velidamos a busca por pacotes de viagem inexistentes ou indisponíveis.
