@@ -1,24 +1,26 @@
-# Projeto de Testes Automatizados utilizando Intellij, Maven, Selenium WebDriver, Selenium IDE, Linguagem de Programação Java e JUnit
+# Projeto de Testes Automatizados em Aplicação Web
 
-Este projeto contém uma série de testes automatizados desenvolvidos para validar funcionalidades de login, criação de conta e busca de pacotes de viagem no site Hurb.
+Este projeto contém uma série de Testes Automatizados desenvolvidos para validar funcionalidades de Criação de conta, Login e Busca por pacotes de viagens no site Hurb, mais conhecido como Hotel Urbano.
 
 ## Funcionalidades Testadas
 
-- **Criação de Conta:** Verifica se um novo usuário pode se registrar com sucesso.
-- **Login:** Valida o login com credenciais válidas e inválidas.
-- **Logout:** Testa se o usuário consegue se desconectar corretamente.
-- **Busca de Pacotes:** Verifica a busca por pacotes de viagem existentes e inexistentes.
+- **Criação de Conta:** Realização do processo para se criar uma conta de um novo usuário.
+- **Login:** Validações do login com credenciais válidas e inválidas.
+- **Logout:** Validamos se o usuário consegue se desconectar corretamente da aplicação.
+- **Busca de Pacotes existentes:** Velidamos a busca por pacotes de viagem existentes.
+- **Busca de Pacotes inexistentes ou indisponíveis:** Velidamos a busca por pacotes de viagem inexistentes ou indisponíveis.
 
 ## Estrutura do Projeto
 
-- **`BaseTest.java`**: Contém métodos reutilizáveis para configuração e ações comuns, como abrir o navegador, realizar login e criar contas.
-- **`Login.java`**: Define os testes para as funcionalidades mencionadas, utilizando os métodos da classe `BaseTest`.
+- **`BaseTest.java`**: Contém métodos que podem ser reutilizáveis para configurações e ações comuns, como abrir o navegador, realizar login e criar contas.
+- **`Login.java`**: Onde temos os nossos testes para as funcionalidades mencionadas, utilizando os métodos da classe `BaseTest`.
 
 ## Requisitos
 
-- **Java 8+**
-- **Maven**
-- **ChromeDriver** (compatível com a versão do Chrome instalada)
+- **IDE de sua preferência** (aqui usei o Intellij)
+- **Java 8+** (aqui usei o 11)
+- **Maven e suas dependências** (algumas utilizadas aqui foram JUnit, Cucumber e Selenium presentes lá no pom.xml)
+- **ChromeDriver** (importante que ele seja compatível com a versão do seu Chrome instalado)
 - **JUnit 4+**
 - **Selenium WebDriver**
 
@@ -37,7 +39,7 @@ Este projeto contém uma série de testes automatizados desenvolvidos para valid
    mvn clean install
 
 ## Executando os Testes
-
-Para executar os testes, utilize o Maven com o seguinte comando:
+Para executar os testes, você pode de forma simples abrir e executar, após baixar, diretamente em em sua IDE (Eclipse, VScode ou IntelliJ, etc.)
+Ou você pode também, utilizar o Maven com o seguinte comando:
   ```bash
    mvn test
