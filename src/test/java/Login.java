@@ -27,7 +27,7 @@ public class Login extends BaseTest {
 
     @Test
     public void criandoConta() {
-        criarConta("Rodrigo", "Oliveira", "dig.mimi1@gmail.com", "teste123", "Brasil", "Rio de Janeiro");
+        criarConta("Rodrigo", "Oliveira", "email.teste1@gmail.com", "teste123", "Brasil", "Rio de Janeiro");
     }
 
     @Test
