@@ -27,3 +27,17 @@ Este projeto contém uma série de testes automatizados desenvolvidos para valid
 1. Clone este repositório:
    ```bash
    git clone https://github.com/username/repository.git
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd repository
+
+3. Instale as dependências do Maven:
+   ```bash
+   mvn clean install
+
+## Executando os Testes
+
+Para executar os testes, utilize o Maven com o seguinte comando:
+  ```bash
+   mvn test
